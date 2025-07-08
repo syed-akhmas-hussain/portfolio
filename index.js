@@ -44,13 +44,13 @@ window.addEventListener("DOMContentLoaded", () => {
 
   for (let j = 0; j < skillsArr.length; j++) {
     const card = document.createElement("div"); //inside div to give new dic, i, p to every card
-    card.classList = "card2";
+    card.classList = "card2 faded2";
 
     const text = document.createElement("p");
 
     const i = document.createElement("i");
     i.classList = skillsLogo[j];
-    i.style.fontSize = "3rem";
+    i.style.fontSize = "2rem";
 
     text.innerText = skillsArr[j];
     card.append(i);
