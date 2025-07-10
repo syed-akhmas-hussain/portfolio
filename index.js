@@ -50,7 +50,6 @@ window.addEventListener("DOMContentLoaded", () => {
 
     const i = document.createElement("i");
     i.classList = skillsLogo[j];
-    i.style.fontSize = "2rem";
 
     text.innerText = skillsArr[j];
     card.append(i);
