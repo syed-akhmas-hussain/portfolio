@@ -407,6 +407,11 @@ section {
   }
   .card{
     height: 30vh;
+    padding: 2.5%;
+  }
+  .subHeadings{
+    justify-content: center;
+    align-items: center;
   }
   .subHeadings h3 {
     font-size: 1.2rem;
@@ -423,7 +428,7 @@ section {
     border-radius: 5px;
   }
   .card2 p {
-    font-size: 0.75rem;
+    font-size: 0.8rem;
   }
   .card2 i{
     font-size: 1rem;
@@ -433,8 +438,8 @@ section {
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    padding-left: 2%;
-    margin-bottom: 2.5%;
+    padding-left: 3.5%;
+    margin-bottom: 3.5%;
   }
   #services{
     margin-bottom: 12.5%;
