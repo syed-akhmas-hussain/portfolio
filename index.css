@@ -186,6 +186,7 @@ main {
   border-radius: 10px;
   border: var(--borderGlass);
   gap: 1%;
+  height: 37vh;
 }
 .subHeadings {
   height: 25%;
