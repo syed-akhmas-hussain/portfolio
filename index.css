@@ -450,20 +450,20 @@ section {
   }
 }
 
-@media (max-width: 430px) {
+/* @media (max-width: 430px) {
   .nav-li a {
-    font-size: 0.5rem;
+    font-size: 0.75rem;
     font-weight: 200;
   }
   #headings h1,
   .second h1 {
-    font-size: 1rem;
+    font-size: 1.25rem;
   }
   #about-text {
-    font-size: 0.4rem;
+    font-size: 0.6rem;
   }
   #prof-pic {
-    height: 12vh;
+    height: 14vh;
   }
   .subHeadings h3 {
     font-size: 0.7rem;
@@ -485,4 +485,4 @@ section {
   .row a {
     font-weight: 200;
   }
-}
+} */
