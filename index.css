@@ -402,12 +402,13 @@ section {
     font-size: 1.125rem;
   }
   #prof-pic {
-    width: 40%;
-    height: 24vh;
+    width: 45%;
+    height: 25vh;
   }
   .card{
     height: 30vh;
     padding: 2.5%;
+    border: 2px solid rgba(255, 255, 255, 0.1);
   }
   .subHeadings{
     justify-content: center;
