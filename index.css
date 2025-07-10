@@ -424,7 +424,7 @@ section {
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 430px) {
   .nav-li a {
     font-size: 0.5rem;
     font-weight: 200;
