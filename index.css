@@ -341,8 +341,9 @@ section {
     justify-content: center;
   }
   #about-text {
+    width: 100%;
     order: 3;
-    font-size: 0.7rem;
+    font-size: 1.125rem;
   }
   #prof-pic {
     order: 1;
@@ -387,37 +388,33 @@ section {
   }
 } /* this should come after 992px */
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
   .nav-li a {
     font-size: 1.125rem;
     font-weight: 300;
   }
-  
+
   #headings h1,
   .second h1 {
     font-size: 1.8rem;
   }
-  #about-text {
-    width: 100%;
-    font-size: 1.125rem;
-  }
   #prof-pic {
     width: 40%;
-    height: 15vh;
+    height: 32vh;
   }
-  .card{
-    height: 30vh;
+  .card {
+    height: 40vh;
     padding: 2.5%;
     border: 2px solid rgba(255, 255, 255, 0.1);
   }
-  .subHeadings{
+  .subHeadings {
     justify-content: center;
     align-items: center;
   }
   .subHeadings h3 {
     font-size: 1.2rem;
   }
-  .para{
+  .para {
     width: 100%;
   }
   .para p {
@@ -428,12 +425,6 @@ section {
     gap: 0.5%;
     border-radius: 5px;
   }
-  .card2 p {
-    font-size: 0.8rem;
-  }
-  .card2 i{
-    font-size: 1rem;
-  }
   #contact {
     display: flex;
     flex-direction: column;
@@ -442,7 +433,7 @@ section {
     padding-left: 3.5%;
     margin-bottom: 3.5%;
   }
-  #services{
+  #services {
     margin-bottom: 12.5%;
   }
   .row {
@@ -459,6 +450,19 @@ section {
   }
 }
 
-/* @media (max-width: 430px) {
-  
-} */
+@media (max-width: 350px) {
+  .card {
+    height: 50vh;
+  }
+}
+@media (max-width: 250px) {
+  .card {
+    height: 60vh;
+  }
+  .card2 {
+    width: 3rem;
+  }
+  .card2 p {
+    font-size: 0.4rem;
+  }
+}
