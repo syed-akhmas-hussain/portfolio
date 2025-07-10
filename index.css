@@ -387,7 +387,7 @@ section {
   }
 } /* this should come after 992px */
 
-@media (max-width: 576px) {
+@media (max-width: 600px) {
   .nav-li a {
     font-size: 1.125rem;
     font-weight: 300;
